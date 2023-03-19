@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 112%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40vw;
+    background-color: #000;
+    height: 10vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+ul li{
+    color: #fff;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ul li:hover{
+    color: #B90EC5;
+    list-style: none;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.logo-div{
+    border-right: 2px solid white;
+}
+.logo-div img{
+    width: 60%;
+}
+button{
+    background-color: #B90EC5;
+    color: #fff;
+    border: 1px solid #B90EC5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #fff;
+    color: #B90EC5;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-btn button{
+    width: 8vw;
+    height: 6vh;
+    font-weight: 700;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    padding: 20vh 0;
+    gap: 5vh;
+}
+.top-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-main h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 1000;
+    color: #fff;
+    line-height: 1;
+    padding: 11px 0;
+}
+.top-main p{
+    text-align: center;
+    font-size: 29px;
+    font-weight: 500;
+    color: #fff;
+}
+.btm-main button{
+    width: 21vw;
+    height: 8vh;
+    font-size: 28px;
+    font-weight: 600;
+}
